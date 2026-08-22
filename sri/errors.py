@@ -1,0 +1,9 @@
+class SRIError(Exception): pass
+class AuthenticationError(SRIError): pass
+class SiteUnavailableError(SRIError): pass
+class ElementNotFoundError(SRIError): pass
+class SessionExpiredError(SRIError): pass
+class CaptchaPendingError(SRIError): pass
+class DownloadFailedError(SRIError): pass
+class SRIChangedError(SRIError): pass
+class NoResultsError(SRIError): pass

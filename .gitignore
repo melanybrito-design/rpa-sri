@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+logs/
+reportes/
+.env
+.DS_Store
+config/settings.py
+RPA SRI.app/
+RPA_SRI_portable.zip
